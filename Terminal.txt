@@ -1,0 +1,45 @@
+Diana_Marin@DESKTOP-46NQUD3 MINGW64 ~/Documents/py_tutorial_iatm (master)
+$ git add .
+
+Diana_Marin@DESKTOP-46NQUD3 MINGW64 ~/Documents/py_tutorial_iatm (master)
+$ git commit -m "README Cambios"
+[master 730f4c5] README Cambios
+ Committer: DIANA M MARIN <DIANA M MARIN>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+)
+
+Diana_Marin@DESKTOP-46NQUD3 MINGW64 ~/Documents/py_tutorial_iatm (master)
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 315 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/DianaM228/py_tutorial_iatm.git
+   36e1eae..730f4c5  master -> master
+
+Diana_Marin@DESKTOP-46NQUD3 MINGW64 ~/Documents/py_tutorial_iatm (master)
+$ git branch workshop
+
+Diana_Marin@DESKTOP-46NQUD3 MINGW64 ~/Documents/py_tutorial_iatm (master)
+$ git branch
+* master
+  workshop
+
+Diana_Marin@DESKTOP-46NQUD3 MINGW64 ~/Documents/py_tutorial_iatm (master)
+$ git checkout workshop
+Switched to branch 'workshop'
+
+Diana_Marin@DESKTOP-46NQUD3 MINGW64 ~/Documents/py_tutorial_iatm (workshop)
+$
